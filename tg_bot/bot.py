@@ -7,7 +7,7 @@ from telegram.constants import ParseMode
 logger = logging.getLogger("antigravity.telegram")
 
 class TelegramNotifier:
-    def __init__(self, token: str, chat_id: str):
+    def __init__(self, token: str, chat_id: str):  
         self.token = token
         self.chat_id = chat_id
         self.application = None
